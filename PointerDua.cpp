@@ -11,3 +11,10 @@ public:
     }
 };
 
+int main ()
+{
+    mahasiswa *mhs = new mahasiswa{1};
+    mhs->showNim();
+    delete mhs; // menghapus objek yang dibuat dengan new
+    return 0;
+}
