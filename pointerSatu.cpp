@@ -12,5 +12,11 @@ int main (){
     mahasiswa mhs{1}; //object mhs 1
     mhs.showNim();
 
+    mahasiswa &refMhs = mhs; // menggunakan nama kedua atau alias//
+    refMhs.nim = 2;
+    mhs.showNim();
+
+    
+
     
 } 
